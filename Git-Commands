@@ -1,0 +1,35 @@
+############ GIT COMMANDS ##########
+#  Create a new repository on the command line
+# retrieve an entire repository from a hosted location via URL : git clone [url]
+
+# initialize an existing directory as a Git repository: git init
+# show modified files in working directory, staged for your next commit :  git status
+# add a file as it looks now to your next commit (stage) : git add [file]
+# commit your staged content as a new commit snapshot : git commit -m “[descriptive message]”
+# diff of what is changed but not staged: git diff
+# fetch and merge any commits from the tracking remote branch : git pull
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/sairajtechcloud/Google-Cloud-RoadMap.git
+git push -u origin main
+git status
+git diff
+git clone https://github.com/sairajtechcloud/Google-Cloud-RoadMap.git
+git pull
+
+git branch 
+git branch [branch-name]
+git checkout 
+git merge [branch]
+
+### BRANCH & MERGE ### 
+# list your branches. a * will appear next to the currently active branch : git branch 
+# create a new branch at the current commit: git branch [branch-name]
+# switch to another branch and check it out into your working directory: git checkout 
+# merge the specified branch’s history into the current one: git merge [branch]
+
+
+
+
